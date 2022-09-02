@@ -5,7 +5,7 @@ import { Container, Box, Heading, Button } from 'theme-ui';
 import BgShape from 'assets/images/shape-1.svg';
 import shapeTop from 'assets/images/icons/shape-top.png';
 import shapeBottom from 'assets/images/icons/shape-bottom.png';
-import { AiOutlineWhatsApp, AiOutlinePhone, AiOutlineInstagram, AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineWhatsApp, AiOutlinePhone, AiOutlineInstagram, AiOutlineMail, AiOutlineFacebook } from 'react-icons/ai'
 import Link from 'next/link';
 
 const CallToAction = () => {
@@ -17,22 +17,27 @@ const CallToAction = () => {
             Queremos entender o que você precisa
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Link href="https://wa.me/5519999706375">
+            <Link href="https://wa.me/558899126620">
               <a target="_blank">
                 <AiOutlineWhatsApp size="3em" />
               </a>
             </Link>
-            <Link href="tel:1921051000">
+            <Link href="tel:8836691146">
               <a target="_blank">
                 <AiOutlinePhone size="3em" />
               </a>
             </Link>
-            <Link href="https://www.instagram.com/tbrweb/">
+            <Link href="https://www.instagram.com/servconjijoca/">
               <a target="_blank">
                 <AiOutlineInstagram size="3em" />
               </a>
             </Link>
-            <Link href="mailto:comercial@tbrweb.com.br">
+            <Link href="https://www.facebook.com/servconjijoca">
+              <a target="_blank">
+                <AiOutlineFacebook size="3em" />
+              </a>
+            </Link>
+            <Link href="mailto:ti@servcon1.com">
               <a target="_blank">
                 <AiOutlineMail size="3em" />
               </a>

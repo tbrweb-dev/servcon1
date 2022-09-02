@@ -10,7 +10,7 @@ const data = [
     title: 'Missão',
     contents: (
       <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et rhoncus enim. Fusce magna erat, facilisis nec vulputate ac
+        Prestar serviços contábeis e assessoria de qualidade, buscando atender as necessidades de nossos clientes e parceiros, agregando valores, segurança e tranquilidade nos seus empreendimentos e juntos sermos instrumento de referência na transformação econômica e social na região, com visibilidade nacional e internacional.
       </div>
     ),
   },
@@ -18,7 +18,7 @@ const data = [
     title: 'Visão',
     contents: (
       <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et rhoncus enim. Fusce magna erat, facilisis nec vulputate ac
+        Ser referência de excelência em serviços de contabilidade e se manter entre os principais da região.
       </div>
     ),
   },
@@ -26,7 +26,7 @@ const data = [
     title: `Valores`,
     contents: (
       <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et rhoncus enim. Fusce magna erat, facilisis nec vulputate ac
+        Ética, qualidade, comprometimento, seriedade, gestão compartilhada, responsabilidade socioeconômica e tradição.
       </div>
     ),
   },
@@ -44,9 +44,9 @@ const PremiumFeature = () => {
           <Box sx={styles.accordionGroup}>
             <SectionHeading
               sx={styles.heading}
-              slogan="Modelo Contabilidade"
+              slogan="Servicon Contabilidade"
               title="Conheça um pouquinho sobre nossa história"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et rhoncus enim. Fusce magna erat, facilisis nec vulputate ac, mattis et nulla. Donec porttitor pretium nisl, eu scelerisque elit finibus a."
+              description="Somos uma empresa voltada para o ramo contábil, fiscal e trabalhista, composta por profissionais, prestando serviços de qualidade e eficiência com um sistema operacional de trabalho totalmente informatizado. No mercado desde Fevereiro de 2000, estamos sempre buscando os requisitos para atender as expectativas dos nossos clientes."
             />
             <Accordion items={data} />
           </Box>
@@ -60,8 +60,8 @@ export default PremiumFeature;
 
 const styles = {
   section: {
-    pt: [12, null, null, null, null, 12, 12],
     pb: [12, null, null, null, null, 14, 18],
+    pt: [6, null, null, null, null, 6, 6],
     // marginBottom: [null, null, null, null, null, null, '-85px'],
     position: 'relative',
     zIndex: 0,
@@ -114,6 +114,7 @@ const styles = {
       letterSpacing: 'heading',
       maxWidth: [250, null, null, 'none'],
       margin: ['0 auto', null, null, 'unset'],
+      mt: 12
     },
   },
 };

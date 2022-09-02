@@ -13,24 +13,24 @@ export const menuItems = [
     title: 'Contato',
     items: [
       {
-        path: 'tel:1921051000',
+        path: 'tel:8899126620',
         icon: telefone,
-        label: '(19) 2105-1000',
+        label: '(88) 9912-6620',
       },
       {
-        path: 'mailto:comercial@tbrweb.com.br',
+        path: 'mailto:ti@servcon1.com',
         icon: email,
-        label: 'comercial@tbrweb.com.br',
+        label: 'ti@servcon1.com',
       },
       {
-        path: 'https://g.page/TBRWEB?share',
+        path: 'https://g.page/servconjijoca?share',
         icon: endereco,
-        label: 'Av. Dr. Paulo de Moraes, 555',
+        label: 'Rua 17 de Outubro, 1340',
       },
       {
-        path: 'https://g.page/TBRWEB?share',
+        path: 'https://g.page/servconjijoca?share',
         icon: cidade,
-        label: 'Piracicaba - SP',
+        label: 'Jijoca de Jericoacoara - CE',
       },
     ],
   },
@@ -39,22 +39,17 @@ export const menuItems = [
     title: 'Redes Sociais',
     items: [
       {
-        path: 'https://www.facebook.com/tbrweb/',
+        path: 'https://www.facebook.com/servconjijoca',
         icon: facebook,
         label: 'Facebook',
       },
       {
-        path: 'https://www.instagram.com/tbrweb/',
+        path: 'https://www.instagram.com/servconjijoca/',
         icon: instagram,
         label: 'Instagram',
       },
       {
-        path: 'https://www.linkedin.com/in/tbrweb/',
-        icon: linkedin,
-        label: 'Linkedin',
-      },
-      {
-        path: 'https://wa.me/5519999706375',
+        path: 'https://wa.me/558899126620',
         icon: whatsapp,
         label: 'Whatsapp',
       },

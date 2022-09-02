@@ -15,38 +15,38 @@ const data = [
   {
     id: 1,
     icon: icon1,
-    title: 'Assessoria Trabalhista',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et rhoncus enim. Fusce magna erat, facilisis nec vulputate ac.`,
+    title: 'Departamento de Registros',
+    description: `Seja para quem está iniciando um novo negócio ou para quem somente procura alterar sua empresa já registrada, oferecemos apoio constante, elaborando a documentação para registro em todos os órgãos e repartições necessárias com agilidade, para que o empresário possa rapidamente obter o registro, sem necessidade de atraso no início das atividades.`,
   },
   {
     id: 2,
     icon: icon2,
-    title: 'Assessoria Contábil',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et rhoncus enim. Fusce magna erat, facilisis nec vulputate ac.`,
+    title: 'Departamento Trabalhista',
+    description: `Orientação e controle da aplicação dos preceitos da consolidação das leis do trabalho, “PIS”, “FGTS” e outros aplicáveis às relações de emprego; Manutenção dos registros de empregados e serviços correlatos; Elaboração da folha de pagamento dos empregados e de Pró-Labore, bem como das guias de recolhimento dos encargos sociais e tributos afins; Atendimento das demais exigências previstas na legislação.`,
   },
   {
     id: 3,
     icon: icon3,
-    title: 'Assessoria Fiscal',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et rhoncus enim. Fusce magna erat, facilisis nec vulputate ac.`,
+    title: 'Departamento Fiscal',
+    description: `Orientação e controle da aplicação dos dispositivos legais vigentes, federais, estaduais ou municipais; Escriturações dos registros fiscais do IPI, ICMS, ISS e elaboração das guias de informação e de recolhimento dos tributos devidos; Atendimento das demais exigências previstas em atos normativos, bem como de eventuais procedimentos de fiscalização tributaria.`,
   },
   {
     id: 4,
     icon: icon4,
-    title: 'Departamento Pessoal',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et rhoncus enim. Fusce magna erat, facilisis nec vulputate ac.`,
+    title: 'Departamento Contábil',
+    description: `Classificação e escrituração da contabilidade de acordo com as normas e princípios contábeis vigentes. Apuração de balancetes; Elaboração do balanço anual e demonstrativos de resultado;`,
   },
   {
     id: 5,
     icon: icon5,
-    title: 'Abertura de Empresa',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et rhoncus enim. Fusce magna erat, facilisis nec vulputate ac.`,
+    title: 'Imposto de Renda PF/PJ',
+    description: `Orientação e controle de aplicação dos dispositivos legais vigentes; Elaboração da declaração anual de rendimentos e documentos correlatos; Atendimento das demais exigências previstas em atos normativos, bem como de eventuais procedimentos de fiscalização.`,
   },
   {
     id: 6,
     icon: icon6,
     title: 'Planejamento Tributário',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et rhoncus enim. Fusce magna erat, facilisis nec vulputate ac.`,
+    description: `Elaboração de plano para economia Tributária; Estudo para a compensação de tributos inconstitucionais; Estudo, avaliação e enquadramento da empresa diante da legislação Fiscal para o melhor aproveitamento na determinação de impostos e contribuições.`,
   },
 ];
 
@@ -56,7 +56,7 @@ const UltimateFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          slogan="Modelo Contabilidade"
+          slogan="Servcon Contabilidade"
           title="Áreas de Atuação"
         />
         <Box sx={styles.features}>

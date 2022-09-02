@@ -26,12 +26,12 @@ const Banner = () => {
                 Entre em contato
               </Text>
               <Flex sx={styles.inputGroup}>
-                <Link href="https://wa.me/5519999706375">
+                <Link href="https://wa.me/558899126620">
                   <a target="_blank">
                     <AiOutlineWhatsApp size="3em"/>
                   </a>
                 </Link>
-                <Link href="tel:1921051000">
+                <Link href="tel:8836691146">
                   <a target="_blank">
                     <AiOutlinePhone size="3em"/>
                   </a>
@@ -46,7 +46,7 @@ const Banner = () => {
                     <AiOutlineFacebook size="3em"/>
                   </a>
                 </Link>
-                <Link href="mailto:comercial@tbrweb.com.br">
+                <Link href="mailto:ti@servcon1.com">
                   <a target="_blank">
                     <AiOutlineMail size="3em"/>
                   </a>
