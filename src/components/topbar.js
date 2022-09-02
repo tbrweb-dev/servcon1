@@ -4,16 +4,20 @@ import Link from 'next/link';
 
 const data = [
   {
-    label: 'ti@servcon1.com',
-    info: 'mailto:ti@servcon1.com',
+    label: 'gerencia@servcon1.com',
+    info: 'mailto:gerencia@servcon1.com',
   },
   {
     label: '(88) 3669-1146',
     info: 'tel: 8836691146',
   },
   {
-    label: '(88) 9912-6620',
-    info: 'https://wa.me/558899126620',
+    label: '(88) 3669-1577',
+    info: 'tel: 8836691577',
+  },
+  {
+    label: '(88) 9966-8652',
+    info: 'https://wa.me/558899668652',
   },
 ];
 
@@ -22,7 +26,7 @@ const TopBar = () => {
     <Box as="section" sx={styles.topbar}>
       <Box sx={styles.content}>
         <Text as="span" className="caption">
-          No mercado há mais de {new Date().getFullYear() - 2000} anos, estamos sempre buscando os requisitos para atender as expectativas dos nossos clientes.
+          No mercado há mais de {new Date().getFullYear() - 2000} anos, atendendo as expectativas dos nossos clientes.
         </Text>
         <Text as="span" className="tlds">
           {data.map(({label, info}, i) => (

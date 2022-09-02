@@ -17,7 +17,7 @@ const CallToAction = () => {
             Queremos entender o que você precisa
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Link href="https://wa.me/558899126620">
+            <Link href="https://wa.me/558899668652">
               <a target="_blank">
                 <AiOutlineWhatsApp size="3em" />
               </a>
@@ -37,7 +37,7 @@ const CallToAction = () => {
                 <AiOutlineFacebook size="3em" />
               </a>
             </Link>
-            <Link href="mailto:ti@servcon1.com">
+            <Link href="mailto:gerencia@servcon1.com">
               <a target="_blank">
                 <AiOutlineMail size="3em" />
               </a>

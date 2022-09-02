@@ -13,14 +13,19 @@ export const menuItems = [
     title: 'Contato',
     items: [
       {
-        path: 'tel:8899126620',
+        path: 'tel:8836691146',
         icon: telefone,
-        label: '(88) 9912-6620',
+        label: '(88) 3669-1146',
       },
       {
-        path: 'mailto:ti@servcon1.com',
+        path: 'tel:8836691577',
+        icon: telefone,
+        label: '(88) 3669-1577',
+      },
+      {
+        path: 'mailto:gerencia@servcon1.com',
         icon: email,
-        label: 'ti@servcon1.com',
+        label: 'gerencia@servcon1.com',
       },
       {
         path: 'https://g.page/servconjijoca?share',
@@ -49,7 +54,7 @@ export const menuItems = [
         label: 'Instagram',
       },
       {
-        path: 'https://wa.me/558899126620',
+        path: 'https://wa.me/558899668652',
         icon: whatsapp,
         label: 'Whatsapp',
       },
