@@ -20,8 +20,8 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Modelo Contabilidade"
-          description="Modelo de Contabilidade planejado para melhor atender as necessidades da sua empresa"
+          title="SERVCON Serviços de Contabilidade"
+          description="Prestar serviços contábeis e assessoria de qualidade, buscando atender as necessidades de nossos clientes e parceiros"
         />
         <Banner />
         <PremiumFeature />

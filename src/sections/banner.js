@@ -9,7 +9,7 @@ import {
 } from 'theme-ui';
 import { rgba } from 'polished';
 import banner from 'assets/images/banner1.png'
-import { AiOutlineWhatsApp, AiOutlinePhone, AiOutlineInstagram, AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineWhatsApp, AiOutlinePhone, AiOutlineInstagram, AiOutlineFacebook, AiOutlineMail } from 'react-icons/ai'
 import Link from 'next/link';
 import {Animated} from "react-animated-css";
 
@@ -36,9 +36,14 @@ const Banner = () => {
                     <AiOutlinePhone size="3em"/>
                   </a>
                 </Link>
-                <Link href="https://www.instagram.com/tbrweb/">
+                <Link href="https://www.instagram.com/servconjijoca/">
                   <a target="_blank">
                     <AiOutlineInstagram size="3em"/>
+                  </a>
+                </Link>
+                <Link href="https://www.facebook.com/servconjijoca">
+                  <a target="_blank">
+                    <AiOutlineFacebook size="3em"/>
                   </a>
                 </Link>
                 <Link href="mailto:comercial@tbrweb.com.br">
