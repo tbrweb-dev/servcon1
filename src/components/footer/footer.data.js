@@ -4,8 +4,8 @@ import endereco from 'assets/images/icons/endereco.png'
 import cidade from 'assets/images/icons/cidade.png'
 import facebook from 'assets/images/icons/facebook.png'
 import instagram from 'assets/images/icons/instagram.png'
-import linkedin from 'assets/images/icons/linkedin.png'
 import whatsapp from 'assets/images/icons/whatsapp.png'
+import store from 'assets/images/icons/store.png'
 
 export const menuItems = [
   {
@@ -57,6 +57,11 @@ export const menuItems = [
         path: 'https://wa.me/558899668652',
         icon: whatsapp,
         label: 'Whatsapp',
+      },
+      {
+        path: 'https://play.google.com/store/apps/details?id=com.servcon',
+        icon: store,
+        label: 'Nosso App',
       },
     ],
   },

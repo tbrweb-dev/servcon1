@@ -3,12 +3,13 @@ import { jsx, Box, Container, Grid, Button, Heading, Text } from 'theme-ui';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 import Image from 'components/image';
 import support from 'assets/images/support.png';
+import check from 'assets/images/icons/check.png'
 
 const list = [
-  'Medical and vision',
-  'Life insurance',
-  'HSAs and FSAs',
-  'Commuter benefits',
+  'Calendário contendo todas às obrigações da empresa perante a legislação',
+  'Possibilidade de enviar solicitações para o Escritório Contábil e também responder as demandas enviadas',
+  'Gerenciamento Eletrônico de documentos onde todo documento enviado pelo app é armazenado em Cloud',
+  'Por Intermédio do app a Empresa receberá comunicados do escritório contábil em diversas orientações fiscais',
 ];
 
 const CustomerSupport = () => {
@@ -21,23 +22,23 @@ const CustomerSupport = () => {
           </Box>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              Customer support is our main priority with their hundred percent
-              satisfaction.
+              Baixe nosso App
             </Heading>
             <Text as="p" sx={styles.summary}>
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+              Possuímos diversas vantagens e facilidades no nosso app
             </Text>
 
             <Grid sx={styles.list} as="ul">
               {list.map((item, i) => (
                 <Text as="li" key={i}>
-                  <IoIosCheckmarkCircle
-                    sx={{ color: 'secondary', mr: 2 }}
-                    size="20px"
-                  />
-                  {item}
+                  <Text as="span">
+                    {/* <IoIosCheckmarkCircle
+                      sx={{ color: 'secondary', mr: 2 }}
+                      size="2em"
+                    /> */}
+                    <img src={check} />
+                    {item}
+                  </Text>
                 </Text>
               ))}
             </Grid>
@@ -107,7 +108,7 @@ const styles = {
   },
   list: {
     gap: '0 18px',
-    gridTemplateColumns: ['repeat(2, 142px)', null, null, 'repeat(2, 200px)'],
+    gridTemplateColumns: ['1fr', null, null, '1fr'],
     justifyContent: [null, null, null, 'center', 'unset'],
     listStyle: 'none',
     mt: [4, null, null, 5, 4, 5],
@@ -118,7 +119,13 @@ const styles = {
       alignItems: 'center',
       color: 'textSecondary',
       display: 'flex',
-      lineHeight: [2.81, null, null, null, 2.2, 2.81],
+      lineHeight: [1.5, null, null, null, 1.5, 1.5],
+      mt: 4,
+      span: {
+        display: 'flex',
+        alignItems: 'center',
+        gap: 2
+      }
     },
   },
 };

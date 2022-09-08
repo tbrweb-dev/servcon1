@@ -26,7 +26,7 @@ export default function IndexPage() {
         <Banner />
         <PremiumFeature />
         <UltimateFeatures />
-        {/* <CustomerSupport /> */}
+        <CustomerSupport />
         <Pricing />
         {/* <Testimonials /> */}
         <Services />

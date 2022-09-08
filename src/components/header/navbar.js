@@ -1,5 +1,6 @@
 /** @jsx jsx */
-import { jsx, Box } from 'theme-ui';
+import { jsx, Box, Link as A } from 'theme-ui';
+import NextLink from 'next/link';
 import { NavLink, Link } from 'components/link';
 import menuItems from './header.data';
 import menuItemsPages from './header.data.pages'
@@ -25,6 +26,12 @@ const Navbar = ({ isSticky, isMobile, handleCloseMenu }) => {
           <Link key={i} path={path} label={label} onClick={handleCloseMenu} />
         ))
       )}
+
+      <NextLink passHref href="https://www.businessinformativos.com.br/area-restrita/ver-revistas.php?uid=MTk2NQ%3D%3D">
+        <A sx={{ textDecoration: "none"}} target="_blank">
+          Revista Online
+        </A>
+      </NextLink>
     </Box>
   );
 };
