@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Container, Grid, Button, Heading, Text } from 'theme-ui';
+import { jsx, Box, Container, Grid, Button, Heading, Text, Flex } from 'theme-ui';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 import Image from 'components/image';
 import support from 'assets/images/support.png';
@@ -41,6 +41,9 @@ const CustomerSupport = () => {
                   </Text>
                 </Text>
               ))}
+              <Flex sx={{ justifyContent: 'center' }}>
+                <Button sx={styles.button} as="a" target="_blank" href="https://play.google.com/store/apps/details?id=com.servcon">Baixe Nosso App</Button>
+              </Flex>
             </Grid>
           </Box>
         </Box>
@@ -128,4 +131,8 @@ const styles = {
       }
     },
   },
+  button: {
+    mt: [8],
+    textAlign: 'center',
+  }
 };

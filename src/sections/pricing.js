@@ -134,6 +134,7 @@ export default Pricing;
 
 const styles = {
   section: {
+    bg: "#F9FAFC",
     pt: [6],
     pb: [12, null, null, 15, 17],
   },

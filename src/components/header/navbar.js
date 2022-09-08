@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Box, Link as A } from 'theme-ui';
+import { jsx, Box, Link as A, Flex, Button } from 'theme-ui';
 import NextLink from 'next/link';
 import { NavLink, Link } from 'components/link';
 import menuItems from './header.data';
@@ -32,6 +32,8 @@ const Navbar = ({ isSticky, isMobile, handleCloseMenu }) => {
           Revista Online
         </A>
       </NextLink>
+
+      <Button sx={styles.button} as="a" target="_blank" href="https://play.google.com/store/apps/details?id=com.servcon">Baixe Nosso App</Button>
     </Box>
   );
 };
@@ -91,4 +93,9 @@ const styles = {
       },
     },
   },
+  button: {
+    ml: [null, null, null, null, null, 6],
+    p: 2,
+    color: "white !important",
+  }
 };
