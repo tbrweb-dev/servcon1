@@ -31,7 +31,7 @@ const Banner = () => {
                     <AiOutlineWhatsApp size="3em"/>
                   </a>
                 </Link>
-                <Link href="tel:8836691146">
+                <Link href="tel:8836691144">
                   <a target="_blank">
                     <AiOutlinePhone size="3em"/>
                   </a>

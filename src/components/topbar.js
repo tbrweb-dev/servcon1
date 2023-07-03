@@ -8,12 +8,8 @@ const data = [
     info: 'mailto:gerencia@servcon1.com',
   },
   {
-    label: '(88) 3669-1146',
-    info: 'tel: 8836691146',
-  },
-  {
-    label: '(88) 3669-1577',
-    info: 'tel: 8836691577',
+    label: '(88) 3669-1144',
+    info: 'tel: 8836691144',
   },
   {
     label: '(88) 9966-8652',

@@ -13,14 +13,9 @@ export const menuItems = [
     title: 'Contato',
     items: [
       {
-        path: 'tel:8836691146',
+        path: 'tel:8836691144',
         icon: telefone,
-        label: '(88) 3669-1146',
-      },
-      {
-        path: 'tel:8836691577',
-        icon: telefone,
-        label: '(88) 3669-1577',
+        label: '(88) 3669-1144',
       },
       {
         path: 'mailto:gerencia@servcon1.com',
