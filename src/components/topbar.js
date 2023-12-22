@@ -11,10 +11,6 @@ const data = [
     label: '(88) 3669-1144',
     info: 'tel: 8836691144',
   },
-  {
-    label: '(88) 9966-8652',
-    info: 'https://wa.me/558899668652',
-  },
 ];
 
 const TopBar = () => {
