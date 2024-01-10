@@ -17,7 +17,7 @@ const CallToAction = () => {
             Queremos entender o que você precisa
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Link href="https://wa.me/558899668652">
+            <Link href="">
               <a target="_blank">
                 <AiOutlineWhatsApp size="3em" />
               </a>
