@@ -48,11 +48,11 @@ export const menuItems = [
         icon: instagram,
         label: 'Instagram',
       },
-      // {
-      //   path: 'https://wa.me/558899668652',
-      //   icon: whatsapp,
-      //   label: 'Whatsapp',
-      // },
+       {
+         path: '',
+         icon: whatsapp,
+         label: 'Whatsapp',
+      },
       {
         path: 'https://play.google.com/store/apps/details?id=com.servcon',
         icon: store,
