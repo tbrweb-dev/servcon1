@@ -26,7 +26,7 @@ const Banner = () => {
                 Entre em contato
               </Text>
               <Flex sx={styles.inputGroup}>
-                <Link href="https://wa.me/558899668652">
+                <Link href="">
                   <a target="_blank">
                     <AiOutlineWhatsApp size="3em"/>
                   </a>
